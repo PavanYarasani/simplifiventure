@@ -1,0 +1,23 @@
+.bg{
+  width:100%;
+  height:100vh;
+    
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 55% 45%);
+}
+.cont{
+ padding:100px;
+}
+
+/*responsive design for mobile and screen*/
+@media screen and (max-width:768px) {
+  .grid-container{
+    display:flex;
+    flex-direction: column;
+  }
+}
+
+
+
