@@ -30,8 +30,10 @@ const Team = ()=> {
         
           return (
            <div>
-            <Navbar/>
-             <div class ="container">
+              <div>
+              <Navbar/>
+              </div>
+             <div className ="container">
               <h2>Posts</h2>
               <h3>Calling API's</h3>
               <ul>

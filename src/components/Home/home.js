@@ -12,7 +12,7 @@ const Home = () =>{
                     </div>
                 </div>
                 <div className="img-container">
-                    <img src="/speeching.png"alt="venture"/>
+                    <img src="https://i0.wp.com/www.ridgepoint-global.com/wp-content/uploads/2022/03/CommsPhoto.jpg?resize=253%2C300&ssl=1"alt="venture"/>
                 </div>
                 
          </div>

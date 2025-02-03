@@ -8,16 +8,12 @@ import Notfound from "./components/Notfoundpage/notfound.js"
 import Footer from "./components/Footer/footer.js"
 function App() {
   return (
-   <BrowserRouter>
-          
-          <Routes >
-            
-             <Route  path="/" element={<Home/>}/>
-
+   <BrowserRouter>  
+          <Routes >  
+            <Route path="/simplifiventure" element={<Home/>}/>
             <Route path="/team" element={<Team/>}/>
             <Route path="/studio" element={<Studio/>}/>
-            <Route element={<Notfound/>}/> 
-            
+             <Route path= "*" element={<Notfound/>}/>  
          </Routes> 
          <Footer/>
    </BrowserRouter>
