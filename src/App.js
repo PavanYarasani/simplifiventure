@@ -5,6 +5,7 @@ import Home from "./components/Home/home.js"
 import Team from "./components/Team/team.js"
 import Studio from "./components/Studio/studio.js"
 import Notfound from "./components/Notfoundpage/notfound.js"
+import Resources from './components/Resources/resources.js';
 import Footer from "./components/Footer/footer.js"
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
             <Route path="/simplifiventure" element={<Home/>}/>
             <Route path="/team" element={<Team/>}/>
             <Route path="/studio" element={<Studio/>}/>
+            <Route path="/resources" element={<Resources/>}/>
              <Route path= "*" element={<Notfound/>}/>  
+
          </Routes> 
          <Footer/>
    </BrowserRouter>

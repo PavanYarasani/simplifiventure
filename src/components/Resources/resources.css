@@ -1,0 +1,54 @@
+.overflow-container{
+    padding-block: 30px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 16px;
+    overflow: auto;
+  
+}
+
+.overflow-container h6 {
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+.overflow-container p{
+    font-size:12px;
+    margin-bottom: 0px !important;
+}
+
+.date-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+  min-width:250px;
+  min-height:250px;
+  background-color: white;
+  padding: 9px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all 0.5s;
+  }
+
+}
+.cards{
+    background-color:aliceblue;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.card-container img{
+    width: 100%;;
+}
+.span{
+    color: rgb(27, 27, 234);
+    text-align: end;
+     font-weight: bold;
+}

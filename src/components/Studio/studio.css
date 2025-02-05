@@ -1,65 +1,125 @@
-.contact-flex-container{
-    box-sizing: border-box;
+.approch-container{
     width:100%;
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    background-image: url("https://www.zuariindustries.in/storage/uploads/page/1680075138.png");
-    justify-content:center;
-    color: white;
-    align-items: center !important;
-    gap:20px;
-}
-form{
-    
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     box-sizing: border-box;
-    width:100%;
-    margin-block: 10px;
-    padding: 25px;
-    color:white;
-    background-size: cover;
-    color: black;
-    background-color: bisque;
-    border-radius: 9px;
-
+    margin-block: 30px;
+   
 
 }
-.input-container{
-    margin-bottom: 10px;
+.approch-container p{
+    font-size: 15px;
+    width:100%;
+
 }
-input{
-    width:90%;
-    height:5vh;
-    border-radius: 6px;
+.approch-card{
+    width:250px;
 }
-textarea{
-    width:90%;
-    border-radius: 6px;
-    height:10vh;
-}
-button{
-    background-color: rgb(26, 68, 195);
-    padding:9px;
-    color:white;
+.approch-card img{
+    width: 250px;
+    padding: 20px;
+    background-color: aliceblue;
     border-radius: 9px;
-    cursor: pointer;
-    margin-top: 5px;
+    box-sizing: border-box;
 }
-.error-msg{
-    color:red;
-    font-weight: bold;
+.our{
+    padding:20px;
+    box-sizing: border-box;
 }
-.text{
+.outer-circle{
+    background-color:#3c73ad;
+    width:200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;;
+
+}
+.inner-cirlce{
+    background-color:#3c73ad;
+    width:120px;
+    height: 120px;
+    border: 20px solid white;
+    border-radius: 50%;
+
+}
+.outer-blue{
+    background-color:#74a4d7;
+}
+.inner-blue{
+    background-color:#74a4d7;
+}
+.outer-green-circle{
+    background-color: #2ed471;
+
+}
+.inner-green-circle{
+    background-color: #2ed471;
+}
+.outer-light-green{
+    background-color: #8ff8b9;
+}
+.inner-light-green{
+    background-color:#8ff8b9 ;
+}
+.circle-grid-container{
+       width:100%;
+       display:grid;
+       grid-template-columns: repeat(4,1fr);
+       justify-content: center;
+       align-items: center;
+       gap:25px;
+       box-sizing: border-box;
+       margin-block: 15px;
+}
+.cicle-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin: auto;
 }
-.text h1{
-    text-decoration: underline;
+.flex-circle{
+    font-display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.flex-circle p{
+   font-size: 14px;
+}
+
+.circle-center{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.inner-cirlce img{
+    width:80%;
+    padding: 10px;
+    margin-top:20px;
+    box-sizing: border-box;
 }
 
 @media (max-width:768px) {
-    .contact-flex-container{
-        box-sizing: border-box;
+   .approch-container{
         display: flex;
         flex-direction: column;
-     
-    }
+   }
+   .approch-card{
+    margin-block: 25px;
+   }
+   .circle-grid-container{
+     grid-template-columns: repeat(2,1fr);
+   }
+    
 }

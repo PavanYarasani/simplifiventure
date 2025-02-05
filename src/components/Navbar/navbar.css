@@ -11,8 +11,8 @@
     background-color: white;
   }
   .nav-item.active {
-    color:white;
-    background-color:chocolate;
+    color: #3c73ad;
+   
   }
   .navbar .logo {
     font-size: 1.5em;
@@ -23,6 +23,7 @@
     list-style: none;
     display: flex;
     gap: 20px;
+    font-weight: bold;
     & li{
         padding:9px;
 }} 
@@ -38,8 +39,8 @@
     padding:9px;
     border-radius: 9px;
     &:hover{
-      color:white;
-      background-color:chocolate;
+      color: #3c73ad;
+      text-decoration: underline;
     }
   }
  
@@ -51,6 +52,7 @@
         justify-content: space-between;
     }
     .nav-links {
+      display:none;
       color: black;
       display: none;
       width: 100%;
@@ -59,7 +61,7 @@
       gap: 10px;
       margin-top: 10px;
       position: relative;
-      top:150px;
+      top:100px;
       left:50px;
       box-shadow: 5px 5px 15px black;
       padding: 10px;
@@ -72,6 +74,9 @@
     .hamburger {
       display: block;
       
+    }
+    .nav-links.active{
+      display: block;
     }
   
     

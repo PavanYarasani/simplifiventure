@@ -1,81 +1,19 @@
-/* Footer Styling */
-.footer {
-    background-color: #111;
-    color: #fff;
-    padding: 40px 20px;
-    text-align: center;
+footer{
+  background-color: aliceblue;
+}
+
+.learn-more{
+  display: none;
+   padding:10px;
+   text-align: center;
+   background-color: white;
+}
+
+@media (max-width:768px){
+  .learn-more{
+    display: block;
   }
-  
-  .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
+  .learn{
+    display: none;
   }
-  
-  .footer-section {
-    flex: 1;
-    margin: 10px;
-    min-width: 250px;
-  }
-  
-  .footer-logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffcc00;
-  }
-  
-  .footer-text {
-    font-size: 14px;
-    color: #bbb;
-  }
-  
-  .footer-heading {
-    font-size: 18px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-  }
-  
-  .footer-links {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-links li {
-    margin: 5px 0;
-  }
-  
-  .footer-links a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-links a:hover {
-    color: #ffcc00;
-  }
-  
-  .footer-socials {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .social-icon {
-    font-size: 24px;
-    color: #fff;
-    transition: color 0.3s ease;
-  }
-  
-  .social-icon:hover {
-    color: #ffcc00;
-  }
-  
-  .footer-bottom {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #bbb;
-    border-top: 1px solid #444;
-    padding-top: 10px;
-  }
+}

@@ -18,9 +18,9 @@ const Navbar = () => {
           <div>
               {/* Conditional class based on menuOpen state */}
               <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
-                <li> <NavLink  to="/simplifiventure" className="nav-item"> Home</NavLink></li>
                 <li><NavLink to="/team" className="nav-item">Team</NavLink></li>
                 <li><NavLink to="/studio" className="nav-item"> Studio</NavLink></li> 
+                <li><NavLink to="/resources" className="nav-item"> Resources</NavLink></li> 
               </ul> 
           {/* Hamburger menu, which triggers toggleMenu function */}
           </div>
