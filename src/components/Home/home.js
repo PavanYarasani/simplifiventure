@@ -18,7 +18,7 @@ const Home = () =>{
             <div className="home-grid-container">
             <div className ="flex-container">
                      <div className="build-image image-order">
-                        <img src="https://www.goworkwize.com/hubfs/photo-1510074377623-8cf13fb86c08_q=80%26w=2072%26auto=format%26fit=crop%26ixlib=rb-4_1200x627%20%281%29.jpg"alt="venture"/>
+                        <img src="https://weprototype.tech/wp-content/uploads/2020/04/about-us-1.jpg"alt="venture"/>
                      </div>
                 </div>
                 <div class="content content-order">
