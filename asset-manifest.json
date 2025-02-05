@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/simplifiventure/static/css/main.865011f5.css",
-    "main.js": "/simplifiventure/static/js/main.1dd725df.js",
+    "main.js": "/simplifiventure/static/js/main.8bf5c73f.js",
     "static/js/488.82ca0626.chunk.js": "/simplifiventure/static/js/488.82ca0626.chunk.js",
     "index.html": "/simplifiventure/index.html",
     "main.865011f5.css.map": "/simplifiventure/static/css/main.865011f5.css.map",
-    "main.1dd725df.js.map": "/simplifiventure/static/js/main.1dd725df.js.map",
+    "main.8bf5c73f.js.map": "/simplifiventure/static/js/main.8bf5c73f.js.map",
     "488.82ca0626.chunk.js.map": "/simplifiventure/static/js/488.82ca0626.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.865011f5.css",
-    "static/js/main.1dd725df.js"
+    "static/js/main.8bf5c73f.js"
   ]
 }
